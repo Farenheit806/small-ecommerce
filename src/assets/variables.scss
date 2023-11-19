@@ -1,0 +1,7 @@
+$main-color: white;
+$bg-color: hsl(225, 5%, 17%);
+
+@mixin wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}

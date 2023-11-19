@@ -1,0 +1,31 @@
+@import "/src/assets/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 25px 0;
+
+  @include wrapper;
+
+  &__logo {
+    display: flex;
+    gap: 10px;
+
+    padding: 10px;
+  }
+  &__nav {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  &__btns {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+  }
+}
